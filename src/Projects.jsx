@@ -3,7 +3,6 @@ import { useFetchProjects } from "./fetchProducts";
 
 const Projects = () => {
   const { loading, projects } = useFetchProjects();
-  // console.log(projects);
   if (loading) {
     return (
       <section className="projects">

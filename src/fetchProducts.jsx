@@ -1,5 +1,3 @@
-// this code written in node as we r using it in front end slightly code changes
-
 import { createClient } from "contentful";
 import { useEffect, useState } from "react";
 
