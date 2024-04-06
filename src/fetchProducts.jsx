@@ -2,7 +2,7 @@ import { createClient } from "contentful";
 import { useEffect, useState } from "react";
 
 const client = createClient({
-  space: import.meta.env.VITE_CONTENTFUL_SPACE_ID,
+  space: "vbaeeb8i00zk",
   environment: "master",
   accessToken: import.meta.env.VITE_CONTENTFUL_API_KEY,
 });
